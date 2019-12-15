@@ -48,6 +48,7 @@ async function createPdfContent(element) {
         height: CONTENT_HEIGHT
       });
     } else {
+      // ２ページ目以降は先に前に改ページを挿入する
       pdfContent.push({
         image: dataUrl,
         width: CONTENT_WIDTH,
