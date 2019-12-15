@@ -14,22 +14,6 @@ const CONTENT_WIDTH = 210 * RATE;
 const CONTENT_HEIGHT = 297 * RATE;
 const PAGE_MARGINS = [0 * RATE, 0 * RATE];
 
-/* for ts
-interface PdfProps {
-  dataUrl: string;
-  pageSize?: {
-    width: number;
-    height: number;
-  };
-  pageOrientation?: string;
-  contentSize?: {
-    width: number;
-    height: number;
-  };
-  pageMargins?: [number, number];
-}
-*/
-
 /**
  * HTMLからPDFを生成
  * @param {HTMLElement} element
