@@ -24,10 +24,10 @@ export async function createPdfFromHtml(element) {
 }
 
 /**
- * PDF出力用のPdfPropsを作成
+ * PDF出力用のPdfContentを作成
  * @param {HTMLElement} element
  * @param {boolean} isOnlyQrCode
- * @returns {Promise<PdfProps>}
+ * @returns {Array<PdfContent>}
  */
 async function createPdfContent(element) {
   const options = {
